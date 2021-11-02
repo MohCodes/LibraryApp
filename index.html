@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Library fam</h1>
+
+    <div class = container id = container>
+
+    </div>
+
+    <div class ="buttonContainer">
+        <button class = "add" id = "addButton">+</button>
+    </div>
+
+    <div class ="formClosed" id = "formClosed">
+        <form name = "bookForm" class = formContent>
+            <div class = titleContainer>
+                <label class = "label">
+                    Add A New Book
+                </label>
+            </div>
+            <button type = "button" class = exitForm id = "exitForm">X</button>
+            <div class = "inputs">
+                <label> Book Name </label>
+                
+                <input for = "bookName" type="text" id = bookNameInput></br>
+
+                <label> Author </label>
+                <input for = "bookAuthor" type="text" id = bookAuthorInput></br>
+
+                <label> Number of Pages </label>
+                <input for = "bookPages" class = "pages" type="number" id = bookPagesInput></br>
+            
+            <div class = pubDate >
+                <label> Publication Date </label>
+                <input for = "bookPubDate" type= "date"  id = bookDateInput></br>
+            </div>
+                
+                <p class = inputs > Have you read it? </p>
+                <div class = "readOrNot">
+                <label>Yes</label>
+                <input type="radio" value = 'Yes' name = "read" id = bookReadYes></br>
+                <label>No</label>
+                <input type = "radio" value = 'No' name = "read" id = bookReadNo></br>
+                </div>
+
+                <button id = "submitBtn" type="button" class ="submitBtn">Add</button>
+
+
+
+            </div>
+        </form>
+    </div>
+        
+    
+</body>
+</html>

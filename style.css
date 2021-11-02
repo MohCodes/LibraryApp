@@ -1,0 +1,208 @@
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    border-color: tomato;
+    border-style: double;
+    display: flex;
+    width:75%;
+    height:550px;
+    margin-left: 250px;
+    margin-top: 12px;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow:auto;
+    
+}
+
+.removeContainer{
+    display: flex;
+    justify-content: flex-end;
+    width:230px;
+
+}
+
+#remove{
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+
+}
+
+.bookRead{
+    border-color: tomato;
+    border-style: double;
+    width:210px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:30px;
+    overflow:visible;
+    
+   
+}
+
+.readButton {
+	background: none;
+	color: inherit;
+	border: single rgb(43, 39, 36);
+	padding: 2px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.bookNotRead{
+    border-color: blue;
+    border-style: double;
+    width:210px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:30px;
+    overflow:visible;
+}
+
+.bookDelete{
+display:none;
+}
+
+.containerTitle{
+    font-size: 20px;
+}
+.containerAuthor, .containerPages, .containerPublish{
+    font-size: 12px;
+}
+
+.bookContent{
+    margin-left: 5px;
+
+}
+
+.buttonContainer{
+    display: flex;
+    border-color: tomato;
+    border-style: double;
+    width:75%;
+    height: 60px;
+    margin-left: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.add{
+    height:50px;
+    width:50px;
+    font-size: 30px;
+    color: white;
+    background: rgb(58, 121, 180);
+    border-radius: 12px;
+    border-color:rgb(58, 121, 180);
+    border-color: white;
+}
+
+.formOpen{
+   
+    z-index: 1;
+    position:sticky;
+    height: 500px;
+    background-color: white;
+    width: 600px;
+    margin-left:650px;
+    margin-top: -610px;
+    border-radius: 20px;
+    border-color: rgb(202, 190, 190);
+    border-style: solid;
+}
+
+.formClosed{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    height: 500px;
+    background-color: white;
+    width: 600px;
+    margin-left:600px;
+    margin-top: -610px;
+    border-radius: 20px;
+    border-color: rgb(202, 190, 190);
+    border-style: solid;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color:rgb(43, 39, 36);
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+    margin-top:40px;
+  
+}
+
+.readOrNot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 120px;
+    margin-top:-5px;
+    margin-bottom: 50px;
+
+}
+
+.submitBtn{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border-color: rgb(202, 190, 190);
+    background-color: white;
+    color: black;
+    margin-top: 60px;
+
+
+}
+.exitForm{
+    display: flex;
+    margin-left:550px;
+    margin-top:-30px;
+    background-color: white;
+    border-color: rgb(202, 190, 190);
+}
+
+.pages{
+    height:60px;
+    width: 40px;
+}
+
+.pubDate{
+    height:60px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
