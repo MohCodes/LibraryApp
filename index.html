@@ -28,30 +28,30 @@
             </div>
             <button type = "button" class = exitForm id = "exitForm">X</button>
             <div class = "inputs">
-                <label> Book Name </label>
+                <label> Book Name (required)</label>
                 
-                <input for = "bookName" type="text" id = bookNameInput></br>
+                <input for = "bookName" class = "inputs1" type="string" id = bookNameInput></br>
 
-                <label> Author </label>
-                <input for = "bookAuthor" type="text" id = bookAuthorInput></br>
+                <label> Author (required)</label>
+                <input for = "bookAuthor" type="string" class = "inputs1" id = bookAuthorInput></br>
 
-                <label> Number of Pages </label>
-                <input for = "bookPages" class = "pages" type="number" id = bookPagesInput></br>
+                <label> Number of Pages (required)</label>
+                <input for = "bookPages" class = "inputs1" class = "pages" type="number" id = bookPagesInput required></br>
             
             <div class = pubDate >
-                <label> Publication Date </label>
-                <input for = "bookPubDate" type= "date"  id = bookDateInput></br>
+                <label> Publication Date (required)</label>
+                <input for = "bookPubDate" class = "inputs1" type= "date"  id = bookDateInput required></br>
             </div>
                 
-                <p class = inputs > Have you read it? </p>
+                <p class = inputs > Have you read it? (required)</p>
                 <div class = "readOrNot">
                 <label>Yes</label>
-                <input type="radio" value = 'Yes' name = "read" id = bookReadYes></br>
+                <input type="radio" class = "inputs1" value = 'Yes' name = "read" id = bookReadYes required></br>
                 <label>No</label>
-                <input type = "radio" value = 'No' name = "read" id = bookReadNo></br>
+                <input type = "radio" class = "inputs1" value = 'No' name = "read" id = bookReadNo required></br>
                 </div>
 
-                <button id = "submitBtn" type="button" class ="submitBtn">Add</button>
+                <button id = "submitBtn" type="button" type = "submit" class ="submitBtn">Add</button>
 
 
 
